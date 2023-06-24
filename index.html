@@ -1,37 +1,60 @@
-<!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-        <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
-        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
-        <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
-    </head>
 
-    <body style="margin: 0; overflow: hidden;">
-        <a-scene
-            renderer="logarithmicDepthBuffer: true;"
-            embedded
-            loading-screen="enabled: false;"
-            arjs="sourceType: webcam; debugUIEnabled: false;"
-        >
-            <a-assets>
-                <a-asset-item
-                    id="animated-asset"
-                    src="assets/asset.glb"
-                ></a-asset-item>
-            </a-assets>
+<head>
 
-                <a-entity
-                    look-at="[gps-camera]"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset"
-                    scale="0.17923926396014445 0.17923926396014445 0.17923926396014445"
-                    gps-entity-place="latitude: 12.824936719430214; longitude: 80.04508685320617;"
-                ></a-entity>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
 
-            <a-camera gps-camera rotation-reader></a-camera>
-        </a-scene>
-    </body>
+</script>
+
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+</script>
+
+</head>
+<body>
+
+Ths is a sample model viewer<br/>
+Â¢â€”
+<a href="https://paw.quality-
+wolves.com/ar/first.reality#allowsContentScaling=0&canonicalWebPageURL=https://quality-
+wolves.com">first artwork vertical</a><br/>
+â€”_â€”
+To view model instantly in i0S Quick Look press here:<br/>
+Â¢â€”<a href="skyline.reality#allowsContentScaling=0&canonicalWebPageURL=https://quality-wolves.com"
+rel="ar">
+<a href="skyline.reality#allowsContentScaling=1&canonicalWebPageURL=https://quality-wolves.com"
+rel="ar">
+
+<img src="preview.png" width="50%"/>
+</a><br ><br />
+
+50% size model look here:<br/>â€”
+Â¢lâ€”<a href="skyline50.reality#allowsContentScaling=1Â§canonicalWebPageURL=https://quality-wolves.com"
+rel="ar">
+<img src="preview.png" width="50%"/>
+</a><br />
+â€”_â€”
+<a href="gtr2018.reality" rel="ar">GTR 2018</a><br/>
+
+Â¢â€”
+
+<model-viewer style="width:100%; height:90%" ar ar-scale="fixed" auto-rotate camera-controls
+poster="first.png" src="first.glb" ios-
+
+src="first.reality#allowsContentScaling=0&canonicalWebPageURL=https://quality-wolves.com" alt="First
+
+artwork to present">
+
+</model-viewer> â€”
+
+Â¢â€” <a href="second.reality">second artwork vertical</a><br/>
+
+<a href="project.reality">Project vertical</a><br/>
+
+<a href="cube.usdz">Im x 1m x 1m cube to test proportions</a><br/>
+
+â€”_â€”
+
+</body>
+
 </html>
+
